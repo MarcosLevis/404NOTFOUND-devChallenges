@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Devchallenges</title>
+
+    <style>
+      body {
+        font-family: 'Roboto Mono', monospace;
+          
+      }
+      .principal{
+        margin: 25px;
+        height: calc(100vh - 50px);    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      header{         
+        display: flex;
+        text-align: left;
+        align-items: center;
+        height: 45px;
+        width: 100%;       
+      }
+      header h1{
+        font-size: 15px;
+        margin: 15px;
+      }
+      .container{        
+        width: 100%;        
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;        
+      }
+      .img{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .img img{
+        max-width: 50%;
+        
+      }
+      .texto{
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+      .texto button{
+        color: honeydew;
+        font-size: 10px;
+        width: 150px;
+        height: 45px;
+        background: rgb(38, 38, 38);
+        border: none;
+      }
+
+      .btn{
+          padding-top: 25px;
+        }
+
+      @media screen and (max-width: 912px){
+        header h1{
+          margin-left: 0px;
+        }
+        .img{
+          width: 100%;
+          padding-bottom:7vh;
+        }
+        .img img{
+          min-width: 70%
+        }
+        .texto{
+          width: 100%;
+        }
+      }
+      
+
+      footer{
+        text-align: center;
+        padding: 3px;
+        color: rgb(181, 181, 181);
+        font-size: 12px;
+      }
+      
+
+    </style>
+  </head>
+  <body>
+    <div class="principal">
+      <div>
+        <header>
+          <h1>404 NOT FOUND</h1>
+        </header>      
+      </div>
+      <div class="container">
+        <div class="img">
+          <img src="Scarecrow.png">        
+        </div>
+        <div class="texto">
+          <div >
+            <h1>I have bad news for you</h1>
+          </div>
+          <div>
+            <p>The page you are looking for might be removed or is temporarily unavailable</p>
+          </div>
+          <div class="btn">
+            <button>BACK TO HOMEPAGE</button>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <span>created by marcoslevis.rck - devChallenges.io</span>
+      </footer>
+      
+    </div>
+  </body>
+</html>
